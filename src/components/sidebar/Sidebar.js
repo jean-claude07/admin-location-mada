@@ -12,7 +12,7 @@ export class Sidebar extends Component {
         if(admin.adminphoto.url === null){
             image = <img src="images/user.png" alt="..." className="img-circle profile_img"/>
         }else{
-            image = <img src={`http://localhost:4000/${admin.adminphoto.url}`} alt="..." className="img-circle profile_img"/>
+            image = <img src={`https://apilocation.herokuapp.com/${admin.adminphoto.url}`} alt="..." className="img-circle profile_img"/>
         }
         return (
             <div>

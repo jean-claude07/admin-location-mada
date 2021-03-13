@@ -46,7 +46,7 @@ export class ListAdmin extends Component {
                         if(admin.adminphoto.url === null){
                             image = <img src="images/user.png" class="rounded-circle" alt="..." width="150px"/>
                         }else{
-                            image = <img src={`http://localhost:4000/${admin.adminphoto.url}`} class="rounded-circle" alt="..." width="150px"/>
+                            image = <img src={`https://apilocation.herokuapp.com/${admin.adminphoto.url}`} class="rounded-circle" alt="..." width="150px"/>
                         }
                         return (
                             <>

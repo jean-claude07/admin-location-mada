@@ -75,7 +75,7 @@ export class ProduitList extends Component {
                             <>  
                                 <div class="col-md-7 col-sm-7 ">
                                     <div class="product-image">
-                                        <img src={`http://localhost:4000/${produit.produitphoto.url}`} alt="..." />
+                                        <img src={`https://apilocation.herokuapp.com/${produit.produitphoto.url}`} alt="..." />
                                     </div>
                                     
                                 </div>

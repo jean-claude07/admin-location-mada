@@ -88,7 +88,7 @@ export class User extends Component {
                                 <tr>
                                     <th scope="row">{kil.id} </th>
                                     <td>
-                                        <img src={`http://localhost:4000/${kil.photoUser.url}`} width="100px" class="rounded-circle" alt="..."/>
+                                        <img src={`https://apilocation.herokuapp.com/${kil.photoUser.url}`} width="100px" class="rounded-circle" alt="..."/>
                                     </td>
                                     <td>
                                         {kil.username}

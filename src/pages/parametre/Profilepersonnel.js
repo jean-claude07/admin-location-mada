@@ -17,7 +17,7 @@ export class Profilepersonnel extends Component {
         if(admin.adminphoto.url === null){
             image = <img src="images/user.png" className="img-responsive avatar-view" alt="Avatar" title="Change the avatar"/>
         }else{
-            image = <img src={`http://localhost:4000/${admin.adminphoto.url}`} className="img-responsive avatar-view" 
+            image = <img src={`https://apilocation.herokuapp.com/${admin.adminphoto.url}`} className="img-responsive avatar-view" 
             alt="Avatar" title="Change the avatar" width="250px"/>
         }
 
@@ -70,7 +70,7 @@ export class Profilepersonnel extends Component {
 
                                 <li className="m-top-xs">
                                 <i className="fa fa-external-link user-profile-icon"></i>
-                                <a href="http://www.ganjah.com/profile/" target="_blank">www.Location.com</a>
+                                <a href="/" target="_blank">www.Location.com</a>
                                 </li>
                                 <a className="btn btn-success"><i className="fa fa-edit m-right-xs"></i>Ajouter profile</a>
                                 <br />

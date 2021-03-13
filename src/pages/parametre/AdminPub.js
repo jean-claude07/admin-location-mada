@@ -25,7 +25,7 @@ export class AdminPub extends Component {
             <>
                 <div class="">
                     <h5 class="card-title">
-                        <img src={`http://localhost:4000/${image && image.url}`} class="rounded-circle" alt="..." width="150px"/> &nbsp; &nbsp;
+                        <img src={`https://apilocation.herokuapp.com/${image && image.url}`} class="rounded-circle" alt="..." width="150px"/> &nbsp; &nbsp;
                         {admin && admin.adminName}
                     </h5>
                 </div>  

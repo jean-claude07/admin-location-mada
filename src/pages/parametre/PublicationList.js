@@ -75,7 +75,7 @@ export class PublicationList extends Component {
                                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                             </div>
                                             <div className="image-responsive" >
-                                                <img src={`http://localhost:4000/${pub.publishingphoto.url}`}  class="card-img-bottom" alt="..." style={{borderRadius: '10px', maxHeight: '800px'}} />
+                                                <img src={`https://apilocation.herokuapp.com/${pub.publishingphoto.url}`}  class="card-img-bottom" alt="..." style={{borderRadius: '10px', maxHeight: '800px'}} />
                                             </div>
                                         </div>
                                     </>

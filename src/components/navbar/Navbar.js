@@ -7,7 +7,7 @@ export class Navbar extends Component {
         if(admin.adminphoto.url === null){
             image = <img src="images/user.png" alt="..." />
         }else{
-            image = <img src={`http://localhost:4000/${admin.adminphoto.url}`} alt="..." />
+            image = <img src={`https://apilocation.herokuapp.com/${admin.adminphoto.url}`} alt="..." />
         }
         return (
             <div>

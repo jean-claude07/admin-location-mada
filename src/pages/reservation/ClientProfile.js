@@ -44,7 +44,7 @@ export class ClientProfile extends Component {
                                 
                                 <th scope="row">
                                     <span class="badge bg-warning text-dark">{user.id} </span>
-                                    <img src={`http://localhost:4000/${image && image.url}`} width="100px" class="rounded-circle" alt="..."/>
+                                    <img src={`https://apilocation.herokuapp.com/${image && image.url}`} width="100px" class="rounded-circle" alt="..."/>
                                     
                                 </th>
                                 <td>
